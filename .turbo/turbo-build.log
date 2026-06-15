@@ -1,0 +1,54 @@
+
+> web@0.1.0 build E:\startup\kun\apps\web
+> i18nexus pull --path i18n/messages && next build
+
+Loaded env from E:\startup\kun\apps\web\.env
+Downloading translations to i18n/messages...
+[32mTranslations downloaded successfully[39m
+▲ Next.js 16.2.1 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 22.7s
+  Running TypeScript ...
+  Finished TypeScript in 25.2s ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/41) ...
+  Generating static pages using 11 workers (10/41) 
+  Generating static pages using 11 workers (20/41) 
+  Generating static pages using 11 workers (30/41) 
+✓ Generating static pages using 11 workers (41/41) in 714ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /_not-found
+├ ƒ /[locale]
+├ ƒ /[locale]/about
+├ ƒ /[locale]/cart
+├ ƒ /[locale]/checkout
+├ ƒ /[locale]/feedback
+├ ƒ /[locale]/forgot-password
+├ ƒ /[locale]/group-order
+├ ƒ /[locale]/group-order/[token]
+├ ƒ /[locale]/login
+├ ƒ /[locale]/loyalty
+├ ƒ /[locale]/menu
+├ ƒ /[locale]/menu/[slug]
+├ ƒ /[locale]/orders
+├ ƒ /[locale]/orders/[orderId]
+├ ƒ /[locale]/profile
+├ ƒ /[locale]/profile/addresses
+├ ƒ /[locale]/promotions
+├ ƒ /[locale]/quick-order
+├ ƒ /[locale]/referral
+├ ƒ /[locale]/register
+├ ƒ /[locale]/rewards
+├ ƒ /[locale]/table/[tableId]
+└ ƒ /[locale]/vouchers
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
